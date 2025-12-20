@@ -33,8 +33,9 @@ public class Amazon1 {
 		System.out.println("Bag brand:" + productname );
 		System.out.println("Price:" + price );
 		
-		driver.quit();
+		driver.close();
 		
 		
 			}
+
 }
